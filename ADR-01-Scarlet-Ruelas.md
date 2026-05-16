@@ -1,4 +1,4 @@
-# ADR-01: Mi App bien CHIDORIS
+# ADR-01: Biblioteca virtual
 
 | Campo  | Valor |
 |--------|-------|
@@ -12,7 +12,7 @@
 
 ¿Qué estás construyendo, qué problema resuelve y para quién es? Describe también las condiciones o restricciones que influyeron en esta decisión — por ejemplo, el tiempo disponible, el equipo, las tecnologías que ya conoces o las que viste en clase.
 
-Se quiere construir una aplicación de consola tipo sistema de biblioteca, cuyo objetivo es gestionar libros de forma sencilla.
+Se quiere construir una aplicación de consola tipo sistema de biblioteca, cuyo objetivo es gestionar libros de forma sencilla para empresas pequeñas que se les dificulte ordenar sus archivo y consultarlos.
 
 El sistema permite registrar libros, listarlos, buscarlos, prestarlos y devolverlos.
 
@@ -74,14 +74,14 @@ Aplicación de principios SOLID (especialmente SRP y DIP)
 
 ## Consecuencias
 
-**✅ Lo que gano:**
+** Lo que gano:**
 
 Lo que gano:
 
 Técnico: El sistema se vuelve más fácil de mantener y extender, ya que cada parte (UI, lógica y datos) está separada en clases distintas. Esto permite modificar una funcionalidad sin afectar el resto del sistema.
 Proceso / trabajo: El desarrollo es más ordenado, porque cada responsabilidad está claramente definida. Esto facilita trabajar por partes y depurar errores más rápido, sin mezclar la lógica del juego con la interfaz.
 
-**⚠️ Lo que sacrifico o asumo:**
+** Lo que sacrifico o asumo:**
 
 Lo que sacrifico o asumo:
 
